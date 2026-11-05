@@ -47,8 +47,8 @@ Now, set up folders in your working directory: raw_data, scripts, plots and tabl
 Save both datasets in the raw_data folder (use the 'here' library)
 
 ```{r saving-data-locally}
-write_csv(tbi_age, file = here("raw_data", "tbi_age.csv"))
-write_csv(tbi_year, file = here("raw_data", "tbi_year.csv"))
+write_csv(tbi_age, file = here("tbi_age.csv"))
+write_csv(tbi_year, file = here("tbi_year.csv"))
 ```
 
 ### Task 2
